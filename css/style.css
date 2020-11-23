@@ -86,6 +86,7 @@ nav{
 }
 .portfolio .hr{
   display: flex;
+  margin-bottom: 20px;
 }
 .portfolio .hr-line-left,
 .portfolio .hr-line-right{
