@@ -1,3 +1,6 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
 ul li{
   display: inline-block;
 }
@@ -5,3 +8,32 @@ ul li a{
   text-decoration: none;
 }
 /* inizio header */
+nav{
+  height: 80px;
+  line-height: 80px;
+  background-color: #2C3E50;
+  text-transform: uppercase;
+}
+.nav-left{
+  text-align: left;
+}
+.nav-left h2{
+  font-weight: 700;
+  color: white;
+}
+.nav-right{
+  text-align: right;
+}
+.nav-right i.fas{
+  color: white;
+}
+.nav-right ul li a{
+  color: white;
+  margin-left: 15px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.nav-right ul li a:hover{
+  text-decoration: none;
+  color: yellow;
+}
