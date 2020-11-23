@@ -37,3 +37,37 @@ nav{
   text-decoration: none;
   color: yellow;
 }
+.jumbotron{
+  background-color: #1ABC9C;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+.jumbotron h1{
+  font-weight: 700;
+}
+.jumbotron .hr{
+  display: flex;
+}
+.jumbotron .hr-line-left,
+.jumbotron .hr-line-right{
+  width: 20%;
+  position: relative;
+  border-bottom: 4px solid white;
+}
+.jumbotron .hr-line-left{
+  margin: 15px 15px 15px auto;
+}
+.jumbotron .hr-line-right{
+  margin: 15px auto 15px 15px;
+}
+.jumbotron .hr .fa{
+  position: relative;
+  top: 3px;
+  color: white;
+}
+.jumbotron p{
+  padding: 15px;
+  font-weight: 400;
+  font-size: 25px;
+}
