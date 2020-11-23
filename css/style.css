@@ -1,5 +1,6 @@
 body{
   font-family: 'Open Sans', sans-serif;
+  background-color: #FFFFFF;
 }
 ul li{
   display: inline-block;
@@ -70,4 +71,41 @@ nav{
   padding: 15px;
   font-weight: 400;
   font-size: 25px;
+}
+/* inzio sezione main */
+
+/* inizio sezione portfolio */
+.portfolio {
+  color: #2C3E50;
+  text-transform: uppercase;
+  text-align: center;
+}
+.portfolio h2{
+  font-weight: 700;
+  font-size: 50px;
+}
+.portfolio .hr{
+  display: flex;
+}
+.portfolio .hr-line-left,
+.portfolio .hr-line-right{
+  width: 20%;
+  position: relative;
+  border-bottom: 4px solid #2C3E50;
+}
+.portfolio .hr-line-left{
+  margin: 15px 15px 15px auto;
+}
+.portfolio .hr-line-right{
+  margin: 15px auto 15px 15px;
+}
+.portfolio .hr .fa{
+  position: relative;
+  top: 3px;
+  color: #2C3E50;
+}
+.portfolio img{
+  width: 100%;
+  margin-bottom: 25px;
+  border-radius: 10px;
 }
