@@ -148,8 +148,52 @@ nav{
   top: 3px;
   color: white;
 }
-.btn-outline-primary{
+.about .btn-outline-primary{
   color: white;
   background-color: #1ABC9C;
   border: 1px solid white;
+}
+/* inzio sezione contact */
+.contact{
+  text-align: left;
+  color: #2C3E50;
+  padding: 40px 0;
+}
+.contact h2{
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.contact p{
+  padding: 15px;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+}
+.contact .hr{
+  display: flex;
+  margin-bottom: 20px;
+}
+.contact .hr-line-left,
+.contact .hr-line-right{
+  width: 20%;
+  position: relative;
+  border-bottom: 4px solid #2C3E50;
+}
+.contact .hr-line-left{
+  margin: 15px 15px 15px auto;
+}
+.contact .hr-line-right{
+  margin: 15px auto 15px 15px;
+}
+.contact .hr .fas{
+  position: relative;
+  top: 3px;
+  color: #2C3E50;
+}
+.contact .btn-primary{
+  background-color: #1ABC9C;
+  border: none;
+  font-weight: bold;
 }
