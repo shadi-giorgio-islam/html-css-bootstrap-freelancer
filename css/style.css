@@ -197,3 +197,32 @@ nav{
   border: none;
   font-weight: bold;
 }
+footer{
+  color: white;
+  text-align: center;
+}
+.footer-top{
+  background-color: #3A546D;
+  padding: 40px;
+}
+.footer-top h3{
+  padding: 15px;
+  font-weight: 600;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.footer-top p{
+  font-weight: 600;
+}
+.footer-top p span{
+  color: #1ABC9C;
+}
+.footer-top .btn-outline-secondary{
+  background-color: #3A546D;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin: 0 5px;
+  padding: 10px;
+  height: 70px;
+  width: 70px;
+}
