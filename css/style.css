@@ -110,3 +110,46 @@ nav{
   margin-bottom: 25px;
   border-radius: 10px;
 }
+.about{
+  background-color: #1ABC9C;
+  text-align: center;
+  color: white;
+  padding: 40px 0;
+}
+.about h2{
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.about p{
+  padding: 15px;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+}
+.about .hr{
+  display: flex;
+  margin-bottom: 20px;
+}
+.about .hr-line-left,
+.about .hr-line-right{
+  width: 20%;
+  position: relative;
+  border-bottom: 4px solid white;
+}
+.about .hr-line-left{
+  margin: 15px 15px 15px auto;
+}
+.about .hr-line-right{
+  margin: 15px auto 15px 15px;
+}
+.about .hr .fas{
+  position: relative;
+  top: 3px;
+  color: white;
+}
+.btn-outline-primary{
+  color: white;
+  background-color: #1ABC9C;
+  border: 1px solid white;
+}
