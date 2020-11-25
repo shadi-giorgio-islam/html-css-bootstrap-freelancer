@@ -127,13 +127,45 @@ nav{
 }
 .box{
   width: 100%;
-  height: 100%;
+  height: 452px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+@media (min-width: 992px){
+  .box{
+    height: 352px;
+  }
+}
+@media (min-width: 1200px){
+  .box{
+    height: 252px;
+  }
+}
+.box.cake{
+  background-image: url('../img/cake.png');
+}
+.box.cabin{
+  background-image: url('../img/cabin.png');
+}
+.box.circus{
+  background-image: url('../img/circus.png');
+}
+.box.game{
+  background-image: url('../img/game.png');
+}
+.box.safe{
+  background-image: url('../img/safe.png');
+}
+.box.submarine{
+  background-image: url('../img/submarine.png');
 }
 .portfolio .box .layover{
   display: none;
   height: 100%;
-  width: 100%;
   background-color: rgba(73, 227, 207, 0.75);
+  border-radius: 10px;
   position: relative;
 }
 .portfolio .layover .fas{
@@ -143,9 +175,9 @@ nav{
   transform: translate(-50%,-50%);
   color: white;
 }
-/* .portfolio .box:hover .layover{
+.portfolio .box:hover .layover{
   display: block;
-} */
+}
 .about{
   background-color: #1ABC9C;
   text-align: center;
